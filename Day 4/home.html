@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickRecharge - Mobile Recharge Portal</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-bolt"></i>
+                QuickRecharge
+            </a>
+            
+            <div class="nav-links">
+                <a href="index.html"  class="active">Home</a>
+                <a href="plans.html">Plans</a>
+                <a href="#offers">Offers</a>
+                <a href="#help">Help</a>
+                
+            </div>
+            
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Recharge Your Mobile <span>Instantly</span></h1>
+                <p>Fast, secure, and reliable mobile recharge for all networks. Get instant recharge with exciting cashback offers!</p>
+                
+                <div class="recharge-box">
+                    <h3>Quick Recharge</h3>
+                    <form id="rechargeForm">
+                        <div class="form-group">
+                            <label for="mobileNumber"><i class="fas fa-mobile-alt"></i> Mobile Number</label>
+                            <input type="tel" id="mobileNumber" placeholder="Enter 10-digit mobile number" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="operator"><i class="fas fa-sim-card"></i> Select Operator</label>
+                            <select id="operator" required>
+                                <option value="">Choose Operator</option>
+                                <option value="airtel">Airtel</option>
+                                <option value="jio">Jio</option>
+                                <option value="vi">Vi</option>
+                                <option value="bsnl">BSNL</option>
+                                
+                            </select>
+                        </div>
+                        
+                    
+                        
+                        <button type="submit" class="btn-recharge">
+                            <i class="fas fa-bolt"></i> Recharge Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Mobile Recharge">
+            </div>
+        </div>
+    </section>
+
+    
+
+  
+    <footer id="about" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>QuickRecharge</h3>
+                    <p>Your trusted partner for instant mobile recharges and bill payments.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="#services">Services</a>
+                    <a href="#plans">Plans</a>
+                    <a href="#about">About Us</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> support@quickrecharge.com</p>
+                    <p><i class="fas fa-phone"></i> +91 1800-123-4567</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Mumbai, India</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 QuickRecharge. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
